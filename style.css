@@ -1,0 +1,43 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Josefin Sans';
+}
+
+.container {
+    flex-direction: row;
+    height: 100vh;
+    align-items: center;
+}
+
+.first {
+    background-image: url(images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+    flex-direction: column;
+    padding-left: 100px;
+    
+}
+
+.container-full {
+    justify-content: center;
+    display: flex;
+}
+.input {
+    width: 150px;
+    height: 25px;
+}
+
+.logo {
+    width: 100px;
+    height: 20px;
+    border-radius: 25%;
+}
+
+.content {
+    flex-direction: row;
+    height: 30px;
+}
